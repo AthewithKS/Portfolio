@@ -648,7 +648,13 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
-
+.responsive-image {
+  width: 50vw; /* Makes the image responsive to its container */
+  max-width: 30vh; /* Sets a maximum width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional for rounded corners */
+  object-fit: cover; /* Ensures image scales properly in its container */
+}
 .services {
   margin-bottom: 80px;
   position: relative;
